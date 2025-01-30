@@ -1,0 +1,27 @@
+.w-35 {
+  width: 60%;
+}
+.bg-green {
+  background-color: #1abc9c;
+}
+
+.bfr::before {
+  content: "";
+  width: 100px;
+  height: 4px;
+  background-color: white;
+  position: absolute;
+  left: 20%;
+  top: 10px;
+  margin-left: 10px;
+}
+.bfr::after {
+  content: "";
+  width: 100px;
+  height: 4px;
+  background-color: white;
+  position: absolute;
+  right: 20%;
+  top: 10px;
+  margin-right: 10px;
+}

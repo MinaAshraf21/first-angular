@@ -1,0 +1,26 @@
+.bg-green {
+  background-color: #1abc9c;
+}
+.about {
+  height: 80vh !important;
+}
+.bfr::before {
+  content: "";
+  width: 100px;
+  height: 4px;
+  background-color: white;
+  position: absolute;
+  left: 39%;
+  top: 10px;
+  margin-left: 20px;
+}
+.bfr::after {
+  content: "";
+  width: 100px;
+  height: 4px;
+  background-color: white;
+  position: absolute;
+  right: 39%;
+  top: 10px;
+  margin-right: 20px;
+}

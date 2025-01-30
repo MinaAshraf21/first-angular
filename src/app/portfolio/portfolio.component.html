@@ -1,0 +1,87 @@
+<div class="container text-center pt-4 mt-2">
+  <h1 class="text-darkblue fw-bold fs-1">PPORTFOLIO COMPONENT</h1>
+  <div class="text-center text-darkblue">
+    <span class="bfr position-relative text-center">
+      <i class="fa-solid fa-star"></i>
+    </span>
+  </div>
+  <div class="container">
+    <div class="row">
+      <div class="p-4 col-lg-4 col-md-6 col-md-6">
+        <div class="househover position-relative p-0">
+          <img [src]="img1Src" alt="house" class="w-100 rounded" />
+          <div
+            class="w-100 h-100 d-flex justify-content-center align-items-center position-absolute"
+            (click)="onImgClick(img1Src)"
+          >
+            <i class="fa-solid fa-plus fw-bold fa-6x text-white"></i>
+          </div>
+        </div>
+      </div>
+
+      <div class="p-4 col-lg-4 col-md-6 col-md-6">
+        <div class="househover position-relative p-0">
+          <img [src]="img2Src" alt="house" class="w-100 rounded" />
+          <div
+            class="w-100 h-100 d-flex justify-content-center align-items-center position-absolute"
+            (click)="onImgClick(img2Src)"
+          >
+            <i class="fa-solid fa-plus fw-bold fa-6x text-white"></i>
+          </div>
+        </div>
+      </div>
+
+      <div class="p-4 col-lg-4 col-md-6 col-md-6">
+        <div class="househover position-relative p-0">
+          <img [src]="img3Src" alt="house" class="w-100 rounded" />
+          <div
+            class="w-100 h-100 d-flex justify-content-center align-items-center position-absolute"
+            (click)="onImgClick(img3Src)"
+          >
+            <i class="fa-solid fa-plus fw-bold fa-6x text-white"></i>
+          </div>
+        </div>
+      </div>
+
+      <div class="p-4 col-lg-4 col-md-6 col-md-6">
+        <div class="househover position-relative p-0">
+          <img [src]="img1Src" alt="house" class="w-100 rounded" />
+          <div
+            class="w-100 h-100 d-flex justify-content-center align-items-center position-absolute"
+            (click)="onImgClick(img1Src)"
+          >
+            <i class="fa-solid fa-plus fw-bold fa-6x text-white"></i>
+          </div>
+        </div>
+      </div>
+      <div class="p-4 col-lg-4 col-md-6 col-md-6">
+        <div class="househover position-relative p-0">
+          <img [src]="img2Src" alt="house" class="w-100 rounded" />
+          <div
+            class="w-100 h-100 d-flex justify-content-center align-items-center position-absolute"
+            (click)="onImgClick(img2Src)"
+          >
+            <i class="fa-solid fa-plus fw-bold fa-6x text-white"></i>
+          </div>
+        </div>
+      </div>
+      <div class="p-4 col-lg-4 col-md-6 col-md-6">
+        <div class="househover position-relative p-0">
+          <img [src]="img3Src" alt="house" class="w-100 rounded" />
+          <div
+            class="w-100 h-100 d-flex justify-content-center align-items-center position-absolute"
+            (click)="onImgClick(img3Src)"
+          >
+            <i class="fa-solid fa-plus fw-bold fa-6x text-white"></i>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div
+    id="cover"
+    class="d-none top-0 end-0 start-0 bottom-0 position-fixed d-flex justify-content-center align-items-center"
+  >
+    <div id="clickedImg"></div>
+  </div>
+</div>
